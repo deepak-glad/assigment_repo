@@ -31,6 +31,7 @@ class _SecondScreenState extends State<SecondScreen> {
 
   Widget _commonWidget(List<Spice> data) {
     return ListView.builder(
+        physics: const NeverScrollableScrollPhysics(),
         shrinkWrap: true,
         itemCount: data.length,
         itemBuilder: (context, index) {
