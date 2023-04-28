@@ -203,7 +203,7 @@ class _SecondScreenState extends State<SecondScreen> {
                                                 },
                                                 icon: Icon(
                                                     _isVeg
-                                                        ? Icons.arrow_drop_up
+                                                        ? Icons.arrow_right
                                                         : Icons.arrow_drop_down,
                                                     size: 30))
                                           ]),
@@ -228,7 +228,7 @@ class _SecondScreenState extends State<SecondScreen> {
                                                 },
                                                 icon: Icon(
                                                     _isSpice
-                                                        ? Icons.arrow_drop_up
+                                                        ? Icons.arrow_right
                                                         : Icons.arrow_drop_down,
                                                     size: 30))
                                           ]),
